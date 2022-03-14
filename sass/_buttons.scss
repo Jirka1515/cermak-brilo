@@ -1,0 +1,72 @@
+button:focus {
+    outline: none;
+    outline: none;
+}
+.navbar-toggler {
+  	border: none;
+  	background: $dark-blue;
+	padding: 10px;
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+ 
+
+    .icon-bar {
+		width: 35px;
+		height: 5px;
+		background-color: $white;
+		display: block;
+		margin: 6px 0;
+		transition: 0.4s;
+	}
+	
+	
+	.icon-bar_top {
+		transform: rotate(0);
+	}
+
+	.icon-bar_middle {
+		opacity: 1;
+	}
+
+	.icon-bar_bottom {
+		transform: rotate(0);
+	}
+}
+.navbar-toggler.collapsed {
+	transition: all 0.2s;
+
+	.icon-bar_top {
+  		-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  		transform: rotate(-45deg) translate(-9px, 6px);
+	}
+
+	.icon-bar_middle {
+		opacity: 0;
+	}
+
+	.icon-bar_bottom {
+		-webkit-transform: rotate(45deg) translate(-8px, -8px);
+		transform: rotate(45deg) translate(-8px, -8px);
+	}
+}
+
+.intro__button {
+	background-color: $blue;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: $white;
+	font-weight: 200;
+	padding: 10px 96px;
+	border: 3px solid $blue;
+	transition: all .3s ease-in-out;
+	
+	&:hover {
+		cursor: pointer;
+		background-color: $white;
+		color: $blue;
+		transition: all .3s ease-in-out;
+	}
+}
+

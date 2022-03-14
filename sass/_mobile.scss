@@ -1,0 +1,30 @@
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        margin-top: 30px;
+        &__text-area {
+            order: 2;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+    .divider_top {
+        margin-top: 100px;
+    }
+    
+    .divider_top-bottom {
+        margin: 100px 0;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .navbar-toggler.collapsed + .navbar-nav {
+        display:block;
+		text-align: center;
+        height: 100%;
+    }
+}
