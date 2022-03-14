@@ -1,6 +1,6 @@
 # cermak-brilo
 Testovací zadání  Brilo Jiří Čermák
-##Znalosti 
+## Znalosti 
 Ohodnoť si aktivní zkušenosti. Buď známkou jako ve škole, nebo počtem aktivního používání. 
 ● HTML sémantika: chvalitebně
 ● CSS: výborně
@@ -9,10 +9,10 @@ Ohodnoť si aktivní zkušenosti. Buď známkou jako ve škole, nebo počtem akt
 ● Šablonovací systémy (Twig, Volt, Nunjucks): nedostatečně
 ● Automatizace (Webpack, Gulp): dostatečně
 ● Repozitáře (GitHub, GitLab): dostatečně
-##Nástroje 
+## Nástroje 
 Jaké IDE nebo editor používáš? Visual Studio Code
 Jaký máš OS? Windows 10
-##Kód 
+## Kód 
 Pokud můžeš, ukázat kousek kódu např. repozitář nebo web.
 www.lafactoria.cz (spíše JS)
 www.cermakjiri.com
